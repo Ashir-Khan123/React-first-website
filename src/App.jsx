@@ -7,7 +7,7 @@ import Home from './Component/HomeSections/Home'
 import NavbarComp from './Component/Subcompnent/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0) // remove if not using
+  const [count, setCount] = useState(0)
 
   return (
     <div>
