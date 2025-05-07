@@ -13,7 +13,7 @@ const Partner = () => {
       <div className='flex justify-center py-8'>
         <h3 className='uppercase'>our partners</h3>
       </div>
-      <div className='flex gap-8 pb-5 w-full max-w-[100px]'>
+      <div className='flex gap-8 pb-5 w-full max-w-[130px]'>
         <img src={picOne} alt="" />
         <img src={picTwo} alt="" />
         <img src={picThree} alt="" />
