@@ -5,7 +5,9 @@ const HeroSection = () => {
     <div className="grid grid-cols-12 bg-[#0B0E12] text-white h-screen text-center lg:text-start">
       <div className="lg:col-span-6 col-span-12 flex flex-col justify-center lg:gap-8 gap-6 min-[1030px]:px-32 md:px-20 px-5 py-8">
         <div>
-          <h3 className="lg:text-6xl md:text-5xl text-3xl font-bold">Welcome to WebXV</h3>
+          <h3 className="lg:text-6xl md:text-5xl text-3xl font-bold">
+            Welcome to WebXV
+          </h3>
         </div>
         <div className="lg:text-lg md:text-sm text-[14px] min-[1030px]:pr-32">
           <p>
@@ -38,7 +40,9 @@ const HeroSection = () => {
             className="bg-[#18222F] py-1.5 px-2 rounded placeholder:text-sm"
           />
           <button className="bg-[#335DD2] py-1.5 rounded uppercase">
-            <a href="#" className="py-1.5 md:px-36 text-sm">login</a>
+            <a href="#" className="py-1.5 md:px-36 text-sm">
+              login
+            </a>
           </button>
           <p className="text-center text-[14px]">Forgotten your password?</p>
           <p className="text-center">
@@ -52,23 +56,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
