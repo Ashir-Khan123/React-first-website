@@ -56,7 +56,7 @@ export const ProjectCards = () => {
         <h3>All projects</h3>
       </div>
       <div className='py-12'>
-      <div className='flex flex-col items-center gap-5'>
+      <div className='flex flex-col items-center gap-7'>
         {projectCards.map((v) => {
           return(
             <div className='bg-[#10171E] flex w-[60%] rounded-2xl p-7'>
@@ -65,21 +65,21 @@ export const ProjectCards = () => {
               </div>
               <div>
                   <div>
-                    <h2>{v.cardName}</h2>
-                    <p>{v.cardRating}</p>
+                    <h2 className='text-[#E2E6E7] font-semibold text-2xl'>{v.cardName}</h2>
+                    <p className='text-[#E2E6E7] font-semibold'>{v.cardRating}</p>
                     <p className='text-[#A7B5C3]'>{v.cardVotes}</p>
                     <img src={v.cardStar} alt="" />
                   </div>
-                  <div className='pt-3'>
+                  <div className='pt-3 text-[#A7B5C3]'>
                     <p>
                       {v.cardDescription}
                     </p>
                   </div>
-                  <div>
+                  <div className='text-[#335DD2]'>
                     <span>
                       {v.indicator} &gt;
                     </span>
-                    <span>
+                    <span className='pl-4 text-sm'>
                       Go to Website &gt;
                     </span>
                   </div>
