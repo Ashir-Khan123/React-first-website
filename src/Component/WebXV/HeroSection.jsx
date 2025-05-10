@@ -2,21 +2,21 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="grid grid-cols-12 bg-[#0B0E12] text-white h-screen text-center lg:text-start">
-      <div className="lg:col-span-6 col-span-12 flex flex-col justify-center lg:gap-8 gap-6 min-[1030px]:px-32 md:px-20 px-5 py-8">
+    <div className="grid grid-cols-12 bg-[#0B0E12] text-white h-screen lg:text-start">
+      <div className="lg:col-span-6 col-span-12 flex flex-col pt-24 lg:gap-11 gap-6 min-[1030px]:px-32 md:px-20 px-5 py-8">
         <div>
-          <h3 className="lg:text-6xl md:text-5xl text-3xl font-bold">
+          <h3 className="lg:text-7xl min-[1024px]:text-4xl md:text-6xl text-3xl font-bold">
             Welcome to WebXV
           </h3>
         </div>
-        <div className="lg:text-lg md:text-sm text-[14px] min-[1030px]:pr-32">
+        <div className="lg:text-lg md:text-[17px] text-[14px] min-[1030px]:pr-32">
           <p>
             Meet cool WEB3 projects and connect with other crypto enthusiasts!
           </p>
         </div>
         <div>
-          <button className="bg-[#335DD2] py-1.5 rounded">
-            <a href="#" className="uppercase px-5 py-2 text-sm">
+          <button className="bg-[#335DD2] py-2 rounded">
+            <a href="#" className="uppercase px-5 py-2.5 text-sm">
               register now
             </a>
           </button>
