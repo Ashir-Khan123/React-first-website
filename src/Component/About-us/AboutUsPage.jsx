@@ -61,7 +61,7 @@ const AboutUsPage = () => {
 
 
   return (
-    <div className='bg-[#0B0E12] text-white py-20'>
+    <div className='bg-[#0B0E12] text-white sm:py-20 py-12'>
       <div className='flex justify-center'>
         <h2 className='text-5xl capitalize font-semibold'>About us</h2>
       </div>
@@ -71,16 +71,16 @@ const AboutUsPage = () => {
         </div>
       </div>
       <div className='flex justify-center'>
-        <h2 className='text-4xl font-semibold'>How you Buy $XV Token</h2>
+        <h2 className='sm:text-4xl text-2xl font-semibold'>How you Buy $XV Token</h2>
       </div>
       <div className='flex justify-center'>
-      <div className='grid grid-cols-12 gap-4 py-11 sm:w-[70%] w-[90%]'>
+      <div className='grid grid-cols-12 gap-4 py-11 md:w-[90%] lg:w-[70%] sm:w-[70%] w-[85%]'>
         {aboutCard.map((v) => {
           return(
           <div className='bg-[#10171E] md:col-span-6 col-span-12 flex justify-center py-8 px-6 rounded-2xl'>
           <div>
             <div className='flex justify-center pb-5'>
-              <img src={v.cardImage} alt="" className='w-[80%]'/>
+              <img src={v.cardImage} alt="" className='md:w-[80%] w-[80%]'/>
             </div>
             <div className='font-semibold pb-3'>
               <h3>{v.CardTitle}</h3>

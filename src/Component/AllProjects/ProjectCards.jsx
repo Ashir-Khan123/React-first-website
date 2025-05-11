@@ -59,23 +59,25 @@ export const ProjectCards = () => {
       <div className='flex flex-col items-center gap-7'>
         {projectCards.map((v) => {
           return(
-            <div className='bg-[#10171E] flex w-[60%] rounded-2xl p-7'>
-              <div>
-                  <img src={v.cardImage} alt="" className='w-[80%]'/>
+            <div className='bg-[#10171E] flex flex-col md:items-start md:flex-row min-[1030px]:w-[60%] md:gap-4 gap-2 min-[1024px]:w-[70%] w-[90%] rounded-2xl sm:p-7 py-5 px-2'>
+              <div className='flex justify-center lg:justify-start md:items-center'>
+                  <img src={v.cardImage} alt="" className='md:w-full sm:w-[40%] w-[30%]'/>
               </div>
-              <div>
-                  <div>
-                    <h2 className='text-[#E2E6E7] font-semibold text-2xl'>{v.cardName}</h2>
+              <div className='text-center md:text-start'>
+                  <div className='text-sm'>
+                    <h2 className='text-[#E2E6E7] font-semibold sm:text-2xl text-lg'>{v.cardName}</h2>
                     <p className='text-[#E2E6E7] font-semibold'>{v.cardRating}</p>
                     <p className='text-[#A7B5C3]'>{v.cardVotes}</p>
-                    <img src={v.cardStar} alt="" />
+                    <div className='flex justify-center md:justify-start'>
+                      <img src={v.cardStar} alt=""/>
+                    </div>
                   </div>
                   <div className='pt-3 text-[#A7B5C3]'>
-                    <p>
+                    <p className='text-[12px] sm:text-sm'>
                       {v.cardDescription}
                     </p>
                   </div>
-                  <div className='text-[#335DD2]'>
+                  <div className='text-[#335DD2] py-2'>
                     <span>
                       {v.indicator} &gt;
                     </span>

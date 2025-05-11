@@ -24,10 +24,10 @@ const Community = () => {
     communityImageTen
   ]
   return (
-    <div className='bg-[#0B0E12] py-28 flex justify-center'>
-      <div className='w-[85%]'>
-      <div className='grid grid-cols-12 gap-x-8'>
-        <div className='lg:col-span-7 col-span-12'>
+    <div className='bg-[#0B0E12] sm:py-28 pt-14 flex justify-center'>
+      <div className='sm:w-[85%] max-[640px]:w-[72%]'>
+      <div className='grid grid-cols-12 gap-x-8 gap-y-14'>
+        <div className='lg:col-span-7 col-span-12 px-12'>
         <div className='grid grid-cols-5'>
         {communityImages.map((v) => {
           return(
@@ -39,7 +39,7 @@ const Community = () => {
         </div>
         </div>
         <div className="lg:col-span-5 col-span-12 flex justify-center items-center pb-8">
-        <div className="w-full sm:max-w-[400px] max-w-[300px] bg-[#0E151B] flex flex-col lg:gap-3 gap-4 px-8 lg:py-6 py-4 rounded-2xl">
+        <div className="w-full  bg-[#0E151B] flex flex-col lg:gap-3 gap-4 px-8 lg:py-5  py-4 rounded-2xl">
           <div className="text-3xl font-semibold text-center text-white">
             <h2>Login</h2>
           </div>
@@ -66,7 +66,7 @@ const Community = () => {
             </a>
           </button>
           <p className="text-center text-[14px] text-[#b8b8b8]">Forgotten your password?</p>
-          <p className="text-center text-[#b8b8b8]">
+          <p className="text-center text-[#b8b8b8] text-sm">
             Don't have an account?
             <span className="text-blue-500 pl-1.5 font-semibold">Register</span>
           </p>
