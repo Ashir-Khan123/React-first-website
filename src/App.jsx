@@ -6,6 +6,7 @@ import NavbarComp from './Component/Subcompnent/Navbar'
 import Footer from './Component/Subcompnent/footer'
 import ProjectCards from './Component/AllProjects/ProjectCards'
 import AboutUsPage from './Component/About-us/AboutUsPage'
+import RegisterSection from './Component/RegisterPage/RegisterSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Route path='/all_project' element={<ProjectCards/>}/>
         <Route path='/community' element={<Community/>}/>
         <Route path='/about_us' element={<AboutUsPage/>}/>
+        <Route path='/register' element={<RegisterSection/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import background from '../../assets/background.png'
+import RegisterSection from '../RegisterPage/RegisterSection'
 
 const Last = () => {
   return (
@@ -16,7 +17,7 @@ const Last = () => {
           </p>
           <div className="text-center">
             <button>
-              <a href="#" className="bg-[#335DD2] uppercase px-3 py-2 rounded">
+              <a to={"RegisterSection"} className="bg-[#335DD2] uppercase px-3 py-2 rounded">
                 register now
               </a>
             </button>

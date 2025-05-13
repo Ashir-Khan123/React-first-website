@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import { NavLink } from "react-router";
 
 export const Footer = () => {
   return (
@@ -19,11 +20,11 @@ export const Footer = () => {
           <div className="md:col-span-2 col-span-8">
             <h2 className="text-white text-lg font-semibold md:pb-5 pt-8">Company</h2>
             <div className="leading-8">
-              <p>About us</p>
-              <p>Projects</p>
-              <p>Community</p>
-              <p>Privacy Policy</p>
-              <p>Terms & Conditions</p>
+              <p><NavLink to={"/about_us"} >About us</NavLink></p>
+              <p><NavLink to={"/all_project"} >Projects</NavLink></p>
+              <p><NavLink to={"/community"} >Community</NavLink></p>
+              <p><NavLink to={"/"} >Privacy Policy</NavLink></p>
+              <p><NavLink to={"/"} >Terms & Conditions</NavLink></p>
             </div>
           </div>
           <div className="md:col-span-2 col-span-4">

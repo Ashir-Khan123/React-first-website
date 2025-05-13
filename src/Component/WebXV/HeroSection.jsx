@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const HeroSection = () => {
   return (
@@ -17,7 +18,10 @@ const HeroSection = () => {
         <div>
           <button className="bg-[#335DD2] py-2 rounded">
             <a href="#" className="uppercase px-5 py-2.5 text-sm">
-              register now
+              <NavLink
+              to={"/register"}>
+              Register Now
+            </NavLink>
             </a>
           </button>
         </div>
@@ -47,7 +51,11 @@ const HeroSection = () => {
           <p className="text-center text-[14px]">Forgotten your password?</p>
           <p className="text-center">
             Don't have an account?
-            <span className="text-blue-500 pl-1.5 font-semibold">Register</span>
+            <NavLink
+              to={"/register"}
+              className="text-[#335DD2] ms-1 cursor-pointer">
+              Register
+            </NavLink>
           </p>
         </div>
       </div>
