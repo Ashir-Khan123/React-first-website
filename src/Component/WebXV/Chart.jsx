@@ -20,7 +20,7 @@ const Chart = () => {
         </div>
       </div>
       <div className="flex justify-center pt-10">
-        <div className="bg-[#0E151B] w-[60%] rounded-2xl">
+        <div className="bg-[#0E151B] md:w-[60%] w-[90%] rounded-2xl">
           <div className="adjust flex justify-between p-5 text-[11px] border border-[#292929] rounded-tr-3xl rounded-tl-3xl font-semibold">
             <div>
               <p className="uppercase">name</p>
@@ -33,7 +33,7 @@ const Chart = () => {
             </div>
             <div></div>
           </div>
-          <div className="adjust flex justify-between p-4 text-[11px] border border-[#292929] font-semibold">
+          <div className="adjust flex justify-between p-4 sm:text-[11px] text-[10px] border border-[#292929] font-semibold">
             <div className="flex items-center gap-2">
               <div className="w-[23px]">
                 <img src={chartImageOne} alt="" />
@@ -52,12 +52,12 @@ const Chart = () => {
                 <img src={redSmall} alt="" />
               </div>
             </div>
-            <div className="w-[70px]">
+            <div className="sm:w-[70px] w-[50px]">
               <img src={blueImage} alt="" />
             </div>
             <div></div>
           </div>
-          <div className="adjust flex justify-between p-4 text-[11px] border border-[#292929] font-semibold">
+          <div className="adjust flex justify-between p-4 sm:text-[11px] text-[10px] border border-[#292929] font-semibold">
             <div className="flex items-center gap-2">
               <div className="w-[23px]">
                 <img src={chartImageTwo} alt="" />
@@ -76,12 +76,12 @@ const Chart = () => {
                 <img src={redSmall} alt="" />
               </div>
             </div>
-            <div className="w-[70px]">
+            <div className="sm:w-[70px] w-[50px]">
               <img src={blueImage} alt="" />
             </div>
             <div></div>
           </div>
-          <div className="adjust flex justify-between p-4 text-[11px] border border-[#292929] font-semibold">
+          <div className="adjust flex justify-between p-4 sm:text-[11px] text-[10px] border border-[#292929] font-semibold">
             <div className="flex items-center gap-2">
               <div className="w-[23px]">
                 <img src={chartImageThree} alt="" />
@@ -100,12 +100,12 @@ const Chart = () => {
                 <img src={blueSmall} alt="" />
               </div>
             </div>
-            <div className="w-[70px]">
+            <div className="sm:w-[70px] w-[50px]">
               <img src={blueImage} alt="" />
             </div>
             <div></div>
           </div>
-          <div className="adjust flex justify-between p-4 text-[11px] border border-[#292929] font-semibold">
+          <div className="adjust flex justify-between p-4 sm:text-[11px] text-[10px] border border-[#292929] font-semibold">
             <div className="flex items-center gap-2">
               <div className="w-[25px]">
                 <img src={chartImageFour} alt="" />
@@ -124,12 +124,12 @@ const Chart = () => {
                 <img src={redSmall} alt="" />
               </div>
             </div>
-            <div className="w-[70px]">
+            <div className="sm:w-[70px] w-[50px]">
               <img src={blueImage} alt="" />
             </div>
             <div></div>
           </div>
-          <div className="adjust flex justify-between p-4 text-[11px] border border-[#3c3c3c] rounded-br-3xl rounded-bl-3xl font-semibold">
+          <div className="adjust flex justify-between p-4 sm:text-[11px] text-[10px] border border-[#3c3c3c] rounded-br-3xl rounded-bl-3xl font-semibold">
             <div className="flex items-center gap-2">
               <div className="w-[23px]">
                 <img
@@ -152,7 +152,7 @@ const Chart = () => {
                 <img src={redSmall} alt="" />
               </div>
             </div>
-            <div className="w-[70px]">
+            <div className="sm:w-[70px] w-[50px]">
               <img src={blueImage} alt="" />
             </div>
             <div></div>
