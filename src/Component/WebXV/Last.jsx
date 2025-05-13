@@ -1,6 +1,7 @@
 import React from "react";
 import background from '../../assets/background.png'
 import RegisterSection from '../RegisterPage/RegisterSection'
+import { NavLink } from "react-router";
 
 const Last = () => {
   return (
@@ -16,10 +17,10 @@ const Last = () => {
             community-oriented.
           </p>
           <div className="text-center">
-            <button>
-              <a to={"RegisterSection"} className="bg-[#335DD2] uppercase px-3 py-2 rounded">
-                register now
-              </a>
+            <button className="bg-[#335DD2] uppercase py-2 rounded">
+            <NavLink to={"/register"} className="cursor-pointer px-8 py-2">
+              Register
+            </NavLink>
             </button>
           </div>
         </div>

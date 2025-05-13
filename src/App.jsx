@@ -7,6 +7,7 @@ import Footer from './Component/Subcompnent/footer'
 import ProjectCards from './Component/AllProjects/ProjectCards'
 import AboutUsPage from './Component/About-us/AboutUsPage'
 import RegisterSection from './Component/RegisterPage/RegisterSection'
+import TermsSection from './Component/TermsCondition/TermsSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
         <Route path='/community' element={<Community/>}/>
         <Route path='/about_us' element={<AboutUsPage/>}/>
         <Route path='/register' element={<RegisterSection/>}/>
+        <Route path='/Termsandcondition' element={<TermsSection/>}/>
       </Routes>
       <Footer/>
     </div>

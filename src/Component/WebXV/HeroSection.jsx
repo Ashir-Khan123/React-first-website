@@ -24,7 +24,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="lg:col-span-6 col-span-12 flex justify-center items-center pb-8">
-        <div className="w-full sm:max-w-[400px] max-w-[300px] bg-[#0E151B] flex flex-col lg:gap-6 gap-4 px-4 lg:py-6 py-4 rounded-2xl">
+        <div className="w-full sm:max-w-[400px] max-w-[300px] bg-[#0E151B] flex flex-col lg:gap-6 gap-4 px-8 lg:py-6 py-4 rounded-2xl">
           <div className="text-2xl font-semibold text-center">
             <h2>Welcome back</h2>
           </div>
@@ -40,7 +40,7 @@ const HeroSection = () => {
             placeholder="Password"
             className="bg-[#18222F] py-1.5 px-2 rounded placeholder:text-sm"
           />
-          <button className="bg-[#335DD2] hover:bg-[#3380d2] cursor-pointer md:px-36 text-sm py-1.5 rounded uppercase">
+          <button className="bg-[#335DD2] hover:bg-[#3380d2] cursor-pointer md:px-36 text-sm py-2 rounded uppercase">
             login
           </button>
           <p className="text-center text-[14px]">Forgotten your password?</p>

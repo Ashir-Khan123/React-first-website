@@ -24,7 +24,7 @@ export const Footer = () => {
               <p><NavLink to={"/all_project"} >Projects</NavLink></p>
               <p><NavLink to={"/community"} >Community</NavLink></p>
               <p><NavLink to={"/"} >Privacy Policy</NavLink></p>
-              <p><NavLink to={"/"} >Terms & Conditions</NavLink></p>
+              <p><NavLink to={"/Termsandcondition"} >Terms & Conditions</NavLink></p>
             </div>
           </div>
           <div className="md:col-span-2 col-span-4">
