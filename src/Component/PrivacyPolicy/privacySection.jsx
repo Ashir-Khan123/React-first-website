@@ -1,7 +1,7 @@
 import React from "react";
 import background from "../../assets/background.png";
 
-const TermsSection = () => {
+const privacySection = () => {
   return (
     <div
       style={{ backgroundImage: `url(${background})` }}
@@ -9,7 +9,7 @@ const TermsSection = () => {
     >
       <div className="flex flex-col items-center">
         <div className="text-5xl font-semibold text-center capitalize">
-          <h3>Terms and Conditions</h3>
+          <h3>Privacy Policy</h3>
         </div>
         <div className="text-center py-7">
           <p className="uppercase text-[#335DD2] text-sm">Welcome to</p>
@@ -57,4 +57,4 @@ const TermsSection = () => {
   );
 };
 
-export default TermsSection;
+export default privacySection;

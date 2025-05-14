@@ -1,5 +1,5 @@
 import React from 'react'
-import  background  from '../../assets/background.png'
+import background from '../../assets/background.png'
 import cardImgOne from '../../assets/project-pic-1.png'
 import cardImgTwo from '../../assets/project-pic-2.jpg'
 import cardImgThree from '../../assets/project-pic-3.png'
@@ -51,7 +51,7 @@ export const ProjectCards = () => {
     },
   ]
   return (
-    <div style={{ backgroundImage: `url(${background})` }} className='bg-[#0B0E12] text-white py-10'>
+    <div style={{ backgroundImage: `url(${background})` }} className='bg-[#0B0E12] text-white py-10 bg-cover bg-center'>
       <div className='flex justify-center text-4xl font-semibold capitalize'>
         <h3>All projects</h3>
       </div>

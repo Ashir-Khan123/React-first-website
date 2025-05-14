@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 
 export const Footer = () => {
   return (
-    <div className="bg-[#0B0E12] text-[#A7B5C3]">
+    <div className="bg-[#0B0E12] text-[#A7B5C3] pt-15">
       <div className="flex justify-center md:pb-10 pb-6">
         <div className="grid grid-cols-12 lg:w-[72%] w-[90%]">
           <div className="md:col-span-8 col-span-12 md:w-[70%] w-full">
@@ -23,7 +23,7 @@ export const Footer = () => {
               <p><NavLink to={"/about_us"} >About us</NavLink></p>
               <p><NavLink to={"/all_project"} >Projects</NavLink></p>
               <p><NavLink to={"/community"} >Community</NavLink></p>
-              <p><NavLink to={"/"} >Privacy Policy</NavLink></p>
+              <p><NavLink to={"/privacyPolicy"} >Privacy Policy</NavLink></p>
               <p><NavLink to={"/Termsandcondition"} >Terms & Conditions</NavLink></p>
             </div>
           </div>
