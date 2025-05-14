@@ -8,12 +8,12 @@ const TermsSection = () => {
       className="bg-[#0B0E12] text-white py-15 bg-cover bg-center"
     >
       <div className="flex flex-col items-center">
-        <div className="text-5xl font-semibold text-center capitalize">
+        <div className="sm:text-5xl text-3xl font-semibold text-center capitalize">
           <h3>Terms and Conditions</h3>
         </div>
         <div className="text-center py-7">
           <p className="uppercase text-[#335DD2] text-sm">Welcome to</p>
-          <h3 className="text-4xl font-semibold">WebXV</h3>
+          <h3 className="sm:text-4xl text-2xl font-semibold">WebXV</h3>
         </div>
         <div className="lg:w-[53%] w-[80%] flex flex-col gap-7 text-[#A1A1A1]">
           <p>

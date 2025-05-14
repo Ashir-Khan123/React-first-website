@@ -8,7 +8,7 @@ import ProjectCards from './Component/AllProjects/ProjectCards'
 import AboutUsPage from './Component/About-us/AboutUsPage'
 import RegisterSection from './Component/RegisterPage/RegisterSection'
 import TermsSection from './Component/TermsCondition/TermsSection'
-// import TermsSection from './Component/TermsCondition/TermsSection'
+import PrivacySection from './Component/PrivacyPolicy/privacySection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +23,7 @@ function App() {
         <Route path='/about_us' element={<AboutUsPage/>}/>
         <Route path='/register' element={<RegisterSection/>}/>
         <Route path='/Termsandcondition' element={<TermsSection/>}/>
-        <Route path='/privacyPolicy' element={<privacySection/>}/>
+        <Route path='/privacyPolicy' element={<PrivacySection/>}/>
       </Routes>
       <Footer/>
     </div>
