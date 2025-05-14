@@ -3,7 +3,7 @@ import aboutImage from "../../assets/about-side-img.png";
 
 const AboutUs = () => {
   return (
-    <div className="grid grid-cols-12 bg-[#0B0E12] text-[#828493] sm:py-24 py-14 lg:px-4 sm:px-8">
+    <div className="grid grid-cols-12 bg-[#0B0E12] text-[#828493] sm:py-24 py-15 lg:px-4 sm:px-8">
       <div className="lg:col-span-6 col-span-12">
         <div className="lg:px-[100px] px-6 leading-5">
           <p className="uppercase text-[#335DD2] font-semibold">About us</p>

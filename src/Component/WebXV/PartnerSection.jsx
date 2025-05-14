@@ -9,7 +9,7 @@ import picSeven from '../../assets/partner-7.png';
 
 const PartnerSection = () => {
   return (
-    <div className='bg-[#0B0E12] text-[#335DD2] text-xl px-8 md:px-15 pt-15 font-bold w-full'>
+    <div className='bg-[#0B0E12] text-[#335DD2] text-xl px-8 md:px-15 py-10 sm:pt-15 font-bold w-full'>
       <div className='flex justify-center py-8'>
         <h3 className='uppercase'>our partners</h3>
       </div>
