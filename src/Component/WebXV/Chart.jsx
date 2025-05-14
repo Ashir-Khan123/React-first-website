@@ -12,7 +12,7 @@ const Chart = () => {
   return (
     <div className="bg-[#0B0E12] text-[#828493] h-screen">
       <div className="text-center">
-        <div className="text-[#335DD2] uppercase font-semibold py-3">
+        <div className="text-[#335DD2] uppercase font-semibold">
           <h6>cryptocurrencies</h6>
         </div>
         <div className="text-white text-3xl sm:text-5xl font-bold capitalize">
