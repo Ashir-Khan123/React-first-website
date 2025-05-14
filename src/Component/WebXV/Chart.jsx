@@ -15,7 +15,7 @@ const Chart = () => {
         <div className="text-[#335DD2] uppercase font-semibold py-3">
           <h6>cryptocurrencies</h6>
         </div>
-        <div className="text-white text-5xl font-bold capitalize">
+        <div className="text-white text-3xl sm:text-5xl font-bold capitalize">
           <h2>Top crypto chart</h2>
         </div>
       </div>

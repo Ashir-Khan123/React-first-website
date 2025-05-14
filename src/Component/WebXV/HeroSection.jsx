@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 
 const HeroSection = () => {
   return (
-    <div className="grid grid-cols-12 bg-[#0B0E12] text-white h-screen lg:text-start">
+    <div className="grid grid-cols-12 bg-[#0B0E12] text-white h-screen lg:text-start text-center">
       <div className="lg:col-span-6 col-span-12 flex flex-col lg:gap-11 gap-6 min-[1030px]:px-32 md:px-20 px-5 py-16">
         <div>
           <h3 className="lg:text-7xl min-[1024px]:text-4xl md:text-6xl text-3xl font-bold">
@@ -24,7 +24,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="lg:col-span-6 col-span-12 flex justify-center items-center pb-8">
-        <div className="w-full sm:max-w-[400px] max-w-[300px] bg-[#0E151B] flex flex-col lg:gap-6 gap-4 px-8 lg:py-6 py-4 rounded-2xl">
+        <div className="w-full sm:max-w-[400px] max-w-[300px] bg-[#0E151B] flex flex-col lg:gap-6 gap-4 px-4 lg:py-6 py-4 rounded-2xl">
           <div className="text-2xl font-semibold text-center">
             <h2>Welcome back</h2>
           </div>
