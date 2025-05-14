@@ -1,3 +1,21 @@
 @import "tailwindcss";
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
+
+
+.images {
+  animation: slide 13s linear infinite;
+}
+
+.brand-container:hover > .brand {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  to {
+    transform: translateX(-100%);
+}
+    from{
+    transform: translateX(100%);
+  }
+}

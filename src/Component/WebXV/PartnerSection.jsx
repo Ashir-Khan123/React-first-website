@@ -9,18 +9,22 @@ import picSeven from '../../assets/partner-7.png';
 
 const PartnerSection = () => {
   return (
-    <div className='bg-[#0B0E12] text-[#335DD2] text-xl px-15 font-bold w-full'>
+    <div className='bg-[#0B0E12] text-[#335DD2] text-xl px-8 md:px-15 pt-15 font-bold w-full'>
       <div className='flex justify-center py-8'>
         <h3 className='uppercase'>our partners</h3>
       </div>
-      <div className='flex gap-8 pb-5 w-full max-w-[130px]'>
-        <img src={picOne} alt="" />
-        <img src={picTwo} alt="" />
-        <img src={picThree} alt="" />
-        <img src={picFour} alt="" />
-        <img src={picFive} alt="" />
-        <img src={picSix} alt="" />
-        <img src={picSeven} alt="" />
+      <div className='flex justify-center'>
+        <div className='overflow-hidden'>
+          <div className='flex images w-[45%] sm:w-[25%] md:w-[15%] gap-10'>
+            <img src={picOne} alt="" />
+            <img src={picTwo} alt="" />
+            <img src={picThree} alt="" />
+            <img src={picFour} alt="" />
+            <img src={picFive} alt="" />
+            <img src={picSix} alt="" />
+            <img src={picSeven} alt="" />
+          </div>
+        </div>
       </div>
     </div>
   )
