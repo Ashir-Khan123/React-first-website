@@ -1,6 +1,6 @@
 import React from "react";
 import background from '../../assets/background.png'
-import RegisterSection from '../RegisterPage/RegisterSection'
+import RegisterSection from '../AllPages/RegisterPage/RegisterSection'
 import { NavLink } from "react-router";
 
 const Last = () => {

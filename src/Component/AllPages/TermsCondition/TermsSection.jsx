@@ -1,11 +1,11 @@
 import React from "react";
-import background from "../../assets/Top-Blue-Image.png";
+import background from "../../../assets/Top-Blue-Image.png";
 
 const TermsSection = () => {
   return (
     <div
       style={{ backgroundImage: `url(${background})` }}
-      className="bg-[#0B0E12] text-white py-15 bg-cover bg-center"
+      className="bg-[#0B0E12] text-white py-15 bg-cover bg-center pt-24"
     >
       <div className="flex flex-col items-center">
         <div className="sm:text-5xl text-3xl font-semibold text-center capitalize">

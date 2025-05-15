@@ -1,10 +1,10 @@
 import React from 'react'
-import background from "../../assets/Top-Blue-Image.png"
-import aboutCardOne from '../../assets/about-card-1.png'
-import aboutCardTwo from '../../assets/about-card-2.png'
-import aboutCardThree from '../../assets/about-card-3.png'
-import aboutCardFour from '../../assets/about-card-4.png'
-import AboutUs from '../WebXV/AboutUs'
+import background from "../../../assets/Top-Blue-Image.png"
+import aboutCardOne from '../../../assets/about-card-1.png'
+import aboutCardTwo from '../../../assets/about-card-2.png'
+import aboutCardThree from '../../../assets/about-card-3.png'
+import aboutCardFour from '../../../assets/about-card-4.png'
+import AboutUs from '../../WebXV/AboutUs'
 
 const AboutUsPage = () => {
   const aboutCard = [
@@ -62,7 +62,7 @@ const AboutUsPage = () => {
 
 
   return (
-    <div style={{ backgroundImage: `url(${background})` }} className='bg-[#0B0E12] bg-no-repeat text-white sm:py-20 py-12'>
+    <div style={{ backgroundImage: `url(${background})` }} className='bg-[#0B0E12] bg-no-repeat text-white sm:py-20 py-12 pt-10'>
       <div className='flex justify-center'>
         <h2 className='text-5xl capitalize font-semibold'>About us</h2>
       </div>

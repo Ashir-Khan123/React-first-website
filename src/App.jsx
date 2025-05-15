@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router'
-import Community from './Component/Community/Community'
-import Home from './Component/HomeSections/Home'
+import Community from './Component/AllPages/Community/Community'
+import Home from './Component/AllPages/HomeSections/Home'
 import NavbarComp from './Component/Subcompnent/Navbar'
 import Footer from './Component/Subcompnent/footer'
-import ProjectCards from './Component/AllProjects/ProjectCards'
-import AboutUsPage from './Component/About-us/AboutUsPage'
-import RegisterSection from './Component/RegisterPage/RegisterSection'
-import TermsSection from './Component/TermsCondition/TermsSection'
-import PrivacySection from './Component/PrivacyPolicy/privacySection'
+import ProjectCards from './Component/AllPages/AllProjects/ProjectCards'
+import AboutUsPage from './Component/AllPages/About-us/AboutUsPage'
+import RegisterSection from './Component/AllPages/RegisterPage/RegisterSection'
+import TermsSection from './Component/AllPages/TermsCondition/TermsSection'
+import PrivacySection from './Component/AllPages/PrivacyPolicy/privacySection'
 
 function App() {
   const [count, setCount] = useState(0)

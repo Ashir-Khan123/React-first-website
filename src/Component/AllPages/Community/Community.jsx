@@ -1,14 +1,14 @@
 import React from "react";
-import communityImageOne from "../../assets/community-pic-1.png";
-import communityImageTwo from "../../assets/community-pic-2.png";
-import communityImageThree from "../../assets/community-pic-3.png";
-import communityImageFour from "../../assets/community-pic-4.png";
-import communityImageFive from "../../assets/community-pic-5.png";
-import communityImageSix from "../../assets/community-pic-6.png";
-import communityImageSeven from "../../assets/community-pic-7.png";
-import communityImageEight from "../../assets/community-pic-8.png";
-import communityImageNine from "../../assets/community-pic-9.png";
-import communityImageTen from "../../assets/community-pic-10.png";
+import communityImageOne from "../../../assets/community-pic-1.png";
+import communityImageTwo from "../../../assets/community-pic-2.png";
+import communityImageThree from "../../../assets/community-pic-3.png";
+import communityImageFour from "../../../assets/community-pic-4.png";
+import communityImageFive from "../../../assets/community-pic-5.png";
+import communityImageSix from "../../../assets/community-pic-6.png";
+import communityImageSeven from "../../../assets/community-pic-7.png";
+import communityImageEight from "../../../assets/community-pic-8.png";
+import communityImageNine from "../../../assets/community-pic-9.png";
+import communityImageTen from "../../../assets/community-pic-10.png";
 import { NavLink } from "react-router";
 
 const Community = () => {
@@ -25,7 +25,7 @@ const Community = () => {
     communityImageTen,
   ];
   return (
-    <div className="bg-[#0B0E12] py-16 pt-14 flex justify-center">
+    <div className="bg-[#0B0E12] py-16 pt-24 flex justify-center">
       <div className="sm:w-[92%] max-[640px]:w-[87%]">
         <div className="grid grid-cols-12 gap-x-4 gap-y-14">
           <div className="lg:col-span-8 col-span-12 lg:px-8">
