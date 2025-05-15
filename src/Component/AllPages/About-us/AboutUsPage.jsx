@@ -62,7 +62,7 @@ const AboutUsPage = () => {
 
 
   return (
-    <div style={{ backgroundImage: `url(${background})` }} className='bg-[#0B0E12] bg-no-repeat text-white sm:py-20 py-12 pt-10'>
+    <div style={{ backgroundImage: `url(${background})` }} className='bg-[#0B0E12] bg-no-repeat text-white sm:py-20 py-12 pt-24'>
       <div className='flex justify-center'>
         <h2 className='text-5xl capitalize font-semibold'>About us</h2>
       </div>
