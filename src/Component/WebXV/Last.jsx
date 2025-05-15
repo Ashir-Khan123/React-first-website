@@ -5,7 +5,7 @@ import { NavLink } from "react-router";
 
 const Last = () => {
   return (
-    <div style={{ backgroundImage: `url(${background})` }} className="bg-[#0B0E12] text-white py-32">
+    <div style={{ backgroundImage: `url(${background})` }} className="bg-[#0B0E12] text-white pb-32">
       <div className="flex flex-col items-center">
         <div className="md:w-[50%] w-[90%]">
           <h2 className="font-bold text-center text-4xl sm:text-5xl capitalize py-8">
