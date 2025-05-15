@@ -18,10 +18,10 @@ function App() {
       <NavbarComp/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/all_project' element={<ProjectCards/>}/>
-        <Route path='/community' element={<Community/>}/>
-        <Route path='/about_us' element={<AboutUsPage/>}/>
-        <Route path='/register' element={<RegisterSection/>}/>
+        <Route path='/All_project' element={<ProjectCards/>}/>
+        <Route path='/Community' element={<Community/>}/>
+        <Route path='/About_us' element={<AboutUsPage/>}/>
+        <Route path='/Register' element={<RegisterSection/>}/>
         <Route path='/Termsandcondition' element={<TermsSection/>}/>
         <Route path='/privacyPolicy' element={<PrivacySection/>}/>
       </Routes>

@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../assets/background.png";
+import background from "../../assets/Top-Blue-Image.png";
 
 const TermsSection = () => {
   return (

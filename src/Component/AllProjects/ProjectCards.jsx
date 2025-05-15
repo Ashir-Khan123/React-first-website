@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../../assets/background.png'
+import background from '../../assets/Top-Blue-Image.png'
 import cardImgOne from '../../assets/project-pic-1.png'
 import cardImgTwo from '../../assets/project-pic-2.jpg'
 import cardImgThree from '../../assets/project-pic-3.png'

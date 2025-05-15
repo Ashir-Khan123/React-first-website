@@ -20,9 +20,9 @@ export const Footer = () => {
           <div className="md:col-span-2 col-span-8">
             <h2 className="text-white text-lg font-semibold md:pb-5 pt-8">Company</h2>
             <div className="leading-8">
-              <p><NavLink to={"/about_us"} >About us</NavLink></p>
-              <p><NavLink to={"/all_project"} >Projects</NavLink></p>
-              <p><NavLink to={"/community"} >Community</NavLink></p>
+              <p><NavLink to={"/About_us"} >About us</NavLink></p>
+              <p><NavLink to={"/All_project"} >Projects</NavLink></p>
+              <p><NavLink to={"/Community"} >Community</NavLink></p>
               <p><NavLink to={"/privacyPolicy"} >Privacy Policy</NavLink></p>
               <p><NavLink to={"/Termsandcondition"} >Terms & Conditions</NavLink></p>
             </div>

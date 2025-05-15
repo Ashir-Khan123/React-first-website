@@ -4,6 +4,11 @@ import communityImageTwo from "../../assets/community-pic-2.png";
 import communityImageThree from "../../assets/community-pic-3.png";
 import communityImageFour from "../../assets/community-pic-4.png";
 import communityImageFive from "../../assets/community-pic-5.png";
+import newImageOne from "../../assets/NewImageOne.png"
+import newImageTwo from "../../assets/NewImageTwo.png"
+import newImageThree from "../../assets/NewImageThree.png"
+import newImageFour from "../../assets/NewImageFour.png"
+import newImageFive from "../../assets/NewImageFive.png"
 import communityImageSix from "../../assets/community-pic-6.png";
 import communityImageSeven from "../../assets/community-pic-7.png";
 import communityImageEight from "../../assets/community-pic-8.png";
@@ -18,6 +23,11 @@ const RegisterSection = () => {
     communityImageThree,
     communityImageFour,
     communityImageFive,
+    newImageOne,
+    newImageTwo,
+    newImageThree,
+    newImageFour,
+    newImageFive,
     communityImageSix,
     communityImageSeven,
     communityImageEight,
