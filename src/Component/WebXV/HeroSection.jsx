@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 const HeroSection = () => {
   return (
     <div className="grid grid-cols-12 bg-[#0B0E12] text-white h-screen lg:text-start text-center">
-      <div className="lg:col-span-6 col-span-12 flex flex-col lg:gap-11 min-[1030px]:px-32 md:px-20 px-5 pt-15">
+      <div className="lg:col-span-6 col-span-12 flex flex-col gap-3 lg:gap-11 min-[1030px]:px-32 md:px-20 px-5 pt-15">
         <div>
           <h3 className="lg:text-7xl min-[1024px]:text-4xl md:text-6xl text-4xl font-bold">
             Welcome to WebXV

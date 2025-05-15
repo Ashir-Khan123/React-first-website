@@ -10,7 +10,7 @@ import redSmall from "../../assets/small-red-chart.png";
 
 const Chart = () => {
   return (
-    <div className="bg-[#0B0E12] text-[#828493] h-screen">
+    <div className="bg-[#0B0E12] text-[#828493]">
       <div className="text-center">
         <div className="text-[#335DD2] uppercase font-semibold">
           <h6>cryptocurrencies</h6>
