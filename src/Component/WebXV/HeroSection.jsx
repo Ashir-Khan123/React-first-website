@@ -23,8 +23,8 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div className="lg:col-span-6 col-span-12 flex justify-center items-center">
-        <div className="w-full sm:max-w-[400px] max-w-[300px] bg-[#0E151B] flex flex-col lg:gap-6 gap-4 px-6 lg:py-6 py-2 rounded-2xl">
+      <div className="lg:col-span-6 col-span-12 flex justify-center items-center pt-15 lg:pt-0">
+        <div className="w-full sm:max-w-[400px] max-w-[300px] bg-[#0E151B] flex flex-col lg:gap-6 gap-4 px-5 lg:py-6 py-3 rounded-2xl">
           <div className="text-2xl font-semibold text-center">
             <h2>Welcome back</h2>
           </div>
