@@ -29,14 +29,25 @@ const RegisterSection = () => {
       <div className="sm:w-[90%] max-[640px]:w-[87%]">
         <div className="grid grid-cols-12 gap-x-5 gap-y-14">
           <div className="lg:col-span-8 col-span-12 lg:px-12">
-            <div className="grid grid-cols-5">
-              {RegisterImages.map((v) => {
-                return (
-                  <div className="">
-                    <img src={v} alt="" />
-                  </div>
-                );
-              })}
+            <div className="relative w-full">
+              <div className="grid grid-cols-5">
+                {RegisterImages.map((v) => {
+                  return (
+                    <div>
+                      <img src={v} alt="" />
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="absolute flex flex-col bottom-7 sm:bottom-9 md:bottom-14 lg:left-5 left-4 sm:left-6 md:left-10 min-[425px]:px-2 min-[845px]:hidden lg:block">
+                <h1 className="sm:text-4xl lg:text-3xl max-[430px]:text-lg text-2xl text-white font-bold py-1">
+                  Join our amazing community
+                </h1>
+                <p className="font-medium sm:text-sm text-[8px] text-justify text-white">
+                  Meet cool Web3 projects and connect with other crypto
+                  enthusiasts!
+                </p>
+              </div>
             </div>
           </div>
           <div className="lg:col-span-4 col-span-12 flex justify-center items-center pb-8">
@@ -86,9 +97,12 @@ const RegisterSection = () => {
               <p className="text-center text-[#b8b8b8] text-sm">
                 Already have an account?
                 <span className="text-blue-500 pl-1.5 font-semibold cursor-pointer">
-                 <NavLink to={"/"} className="text-[#335DD2] pl-1.5 cursor-pointer">
-                Login
-              </NavLink>
+                  <NavLink
+                    to={"/"}
+                    className="text-[#335DD2] pl-1.5 cursor-pointer"
+                  >
+                    Login
+                  </NavLink>
                 </span>
               </p>
               <button className="bg-[#131A23] text-[12px] text-[#e9e9e9] font-semibold py-2 rounded uppercase hover:bg-white hover:rounded cursor-pointer hover:text-black mb-2">

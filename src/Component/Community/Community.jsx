@@ -29,24 +29,26 @@ const Community = () => {
       <div className="sm:w-[92%] max-[640px]:w-[87%]">
         <div className="grid grid-cols-12 gap-x-4 gap-y-14">
           <div className="lg:col-span-8 col-span-12 lg:px-8">
-          <div className="relative w-full">
-            <div className="grid grid-cols-5">
-              {communityImages.map((v) => {
-                return (
-                  <div>
-                    <img src={v} alt="" />
-                  </div>
-                );
-              })}
+            <div className="relative w-full">
+              <div className="grid grid-cols-5">
+                {communityImages.map((v) => {
+                  return (
+                    <div>
+                      <img src={v} alt="" />
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="absolute flex flex-col bottom-7 sm:bottom-9 md:bottom-14 lg:left-5 left-4 sm:left-6 md:left-10 min-[425px]:px-2 min-[845px]:hidden lg:block">
+                <h1 className="sm:text-4xl max-[430px]:text-lg text-2xl text-white font-bold py-1">
+                  Join our amazing community
+                </h1>
+                <p className="font-medium sm:text-sm text-[8px] text-justify text-white">
+                  Meet cool Web3 projects and connect with other crypto
+                  enthusiasts!
+                </p>
+              </div>
             </div>
-            <div className="absolute flex flex-col bottom-7 sm:bottom-9 md:bottom-14 lg:left-5 left-4 sm:left-6 md:left-10 min-[425px]:px-2 min-[845px]:hidden lg:block">
-              <h1 className="sm:text-4xl max-[430px]:text-lg text-2xl text-white font-bold py-1">Join our amazing community</h1>
-              <p className="font-medium sm:text-sm text-[8px] text-justify text-white">
-                Meet cool Web3 projects and connect with other crypto
-                enthusiasts!
-              </p>
-            </div>
-          </div>
           </div>
           <div className="lg:col-span-4 col-span-12 flex justify-center items-center pb-8">
             <div className="w-full  bg-[#0E151B] flex flex-col lg:gap-3 gap-4 px-6 lg:py-5  py-4 rounded-2xl">
